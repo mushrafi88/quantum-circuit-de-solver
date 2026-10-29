@@ -1,0 +1,12 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{amsmath,amssymb,braket}
+\usepackage{tikz}
+\usetikzlibrary{quantikz2}
+\begin{document}
+
+\begin{quantikz}[row sep=0.25cm, column sep=0.3cm]
+& \gate[2]{ZZ(2J_1\delta)} & \gate[2]{XX(2K_1\delta)} & & & \gate{R_Y(2b_1\delta)} & \gate{R_Z(2h_1\delta)} & \\
+ & & & \gate[2]{ZZ(2J_2\delta)} & \gate[2]{XX(2K_2\delta)} & \gate{R_Y(2b_2\delta)} & \gate{R_Z(2h_2\delta)} & \\
+ & & & & & \gate{R_Y(2b_3\delta)} & \gate{R_Z(2h_3\delta)} &
+\end{quantikz}
+\end{document}

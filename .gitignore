@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+.DS_Store
+draft_paper/figures/*.png
+draft.pdf
+*.bbl
+*.blg
+*.out

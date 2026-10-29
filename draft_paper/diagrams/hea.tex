@@ -1,0 +1,11 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{amsmath,amssymb,braket}
+\usepackage{tikz}
+\usetikzlibrary{quantikz2}
+\begin{document}
+\begin{quantikz}[row sep=0.25cm, column sep=0.25cm]
+\lstick{$\ket{0}$} & \gate{R_Y(t)} & \gate{H} & \gate{R_X} & \gate{R_Y} & \ctrl{1} & & \gate{H} & \gate{R_Z} & \gate{R_X} & \ctrl{1} & & \gate{H} & \meter{Z} \\
+\lstick{$\ket{0}$} & \gate{R_Y(t)} & \gate{H} & \gate{R_X} & \gate{R_Y} & \targ{} & \ctrl{1} & \gate{H} & \gate{R_Z} & \gate{R_X} & \targ{} & \ctrl{1} & \gate{H} & \\
+\lstick{$\ket{0}$} & \gate{R_Y(t)} & \gate{H} & \gate{R_X} & \gate{R_Y} & & \targ{} & \gate{H} & \gate{R_Z} & \gate{R_X} & & \targ{} & \gate{H} &
+\end{quantikz}
+\end{document}
