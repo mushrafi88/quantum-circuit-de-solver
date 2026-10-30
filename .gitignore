@@ -12,3 +12,4 @@ draft.pdf
 *.bbl
 *.blg
 *.out
+*.synctex.gz
